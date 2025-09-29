@@ -121,8 +121,7 @@
 				secWord: 'Seconds',
 				callback: function(secondsLeft) {
 					if((secondsLeft < 5) && !magicHappened) {
-						$(countDownTimerTarget).innerHTML = '<iframe width="800px" height="600px" src="https://www.youtube.com/v/UDn2rbmbTyc?autoplay=1&showinfo=0&loop=1&list=UDn2rbmbTyc&rel=0" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
-
+						$(countDownTimerTarget).innerHTML = '<iframe width="800px" height="600px" src="https://www.youtube.com/embed/UDn2rbmbTyc?start=0&autoplay=1&mute=0" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>';
 						magicHappened = true;
 					}
 
